@@ -1,0 +1,36 @@
+{
+  "name": "hubs-template-addon",
+  "version": "1.0.0",
+  "description": "A template for creating Hubs Add-ons",
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hubs",
+    "add-on",
+    "template"
+  ],
+  "author": "Manuel Martin",
+  "owners": [
+    {
+      "name": "Manuel Martin",
+      "githubUsername": "keianhzo"
+    }
+  ],
+  "license": "MPL-2.0",
+  "sourceMap": "dist/*.map",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "peerDependencies": {
+    "bitecs": "github:mozilla/bitECS#hubs-patches",
+    "three": "^0.141.0"
+  },
+  "devDependencies": {
+    "@types/hubs": "github:MozillaReality/hubs-ts-types",
+    "@types/node": "^18.15.0",
+    "@types/three": "^0.141.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.3.3"
+  }
+}
