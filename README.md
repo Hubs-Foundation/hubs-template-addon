@@ -7,7 +7,7 @@ As of now add-ons are not yet part of the main Hubs branch, so you'll need to us
 
 1. Install the node-module:
 
-```npm i https://github.com/MozillaReality/hubs-portals-addon.git```
+```npm i https://github.com/MozillaReality/hubs-template-addon.git```
 
 2. Add the add-on to your Hubs client add-ons configuration file.
 
